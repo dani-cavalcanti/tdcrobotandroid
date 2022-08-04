@@ -1,6 +1,6 @@
 <h1 align="center">TDC-Android</h1>
 
-Projeto para demonstrar como executar testes mobile no Android usando o Robot Framework e o Appium que foram apresentados no TDC Business 2022
+Projeto para demonstrar como executar testes mobile no Android usando o Robot Framework e o Appium. Projeto faz parte do material exibido na palestra "Quando dois robôs se encontram: Android + Robot Framework na garantia da qualidade do app" na Trilha Android do TDC Business 2022
 
 ***
 
