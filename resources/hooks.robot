@@ -1,13 +1,13 @@
+***Settings***
+Library     AppiumLibrary
+
+Resource    variables.robot
+
 ***Keywords***
-Start Session
-    Open Browser        about:blank         Chrome
-    Maximize Browser Window
-
-Login Session
-    Start Session
-
-    Go To           ${baseUrl}
-    Login With      ${username}     ${password} 
+Open Google Chat
+    Open Application    ${REMOTE_URL}                platformName=${PLATFORM_NAME}                              
+    ...                 deviceName=${DEVICE_NAME}    appPackage=${APP_PACKAGE}	appActivity=${APP_ACTIVITY}    automationName=${AUTOMATION_NAME}
 
 Finish Session
-    Close Browser
+    Capture Page Screenshot
+    Close Application

@@ -1,14 +1,14 @@
 ***Settings***
-Documentation       Login
-Resource            ../resources/base.robot
+Documentation       This script starts and run simple tasks on Google Chat app
+Resource            ../resources/kws.robot
 
-Test Setup          Start Session
-Test Teardown       Finish Session
 
 ***Test Cases***
-LinkedIn Accessibility Test 
-    Given I access the Login page
-    And I submit my credentials    ${email}      ${password}
-    When I should see the logged area
-   
+Google Chat Mobile Test 
+    Given I Open Google Chat
+    When I click in Space button
+    Then I view the Robot + Android Space
+        
+    Finish Session
+
  
